@@ -1,16 +1,33 @@
 {
-  "Models": [
+  "predictions": [
     {
-      "id": 1,
-      "ModelName": "Logistic Regression",
-      "PerformanceMetric": "ROC",
-      "Value": 0.81
-    },
-    {
-      "id": 2,
-      "ModelName": "SVM",
-      "PerformanceMetric": "ROC",
-      "Value": 0.84
+      "image_id": 331,
+      "image_filename": "...png",
+      "attributes": "weather",
+      "true_boxes": [
+        {
+          "box_id": 901,
+          "attributes": [],
+          "label": "traffic sign",
+          "box": { "x1": 355.34, "x2": 455.78 }
+        },
+        {
+          "box_id": 902,
+          "attributes": [],
+          "label": "traffic sign",
+          "box": { "x1": 355.34, "x2": 452.78 }
+        }
+      ],
+      "predicted_boxes": [
+        {
+          "box_index": 0,
+          "label": "person",
+          "box": { "x1": 300, "x2": 455.78 },
+          "confidence_score": 0.87,
+          "detection_features": "[...]"
+        }
+      ],
+      "iou": "??"
     }
   ]
 }

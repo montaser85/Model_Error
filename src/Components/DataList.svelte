@@ -7,12 +7,17 @@
 
 <div>
     <div class="poll-list">
-        {#each jsonData.Models as item (item.id)}
+        {#each jsonData.predictions as item (item.image_id)}
           <div>
-            <h3>Model: {item.id}</h3>
-            <ul>{item.ModelName}</ul>
-            <ul>{item.PerformanceMetric}</ul>
-            <ul>{item.value}</ul>  
+            <h3>ImageID: {item.image_id}</h3>
+            <ul>Image_Attribute: {item.attributes}</ul>
+            <ul>FileName: {item.image_filename}</ul>
+            <ul>
+              {#each item.true_boxes as box (box.box_id)}
+              <ul>BoxID: {box.box_id}</ul>
+              <ul>BoxLabel: {box.label}</ul>
+              {/each}
+            </ul>  
           </div>
         {/each}
       </div>
