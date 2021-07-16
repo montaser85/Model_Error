@@ -1,0 +1,16 @@
+{
+  "Models": [
+    {
+      "id": 1,
+      "ModelName": "Logistic Regression",
+      "PerformanceMetric": "ROC",
+      "Value": 0.81
+    },
+    {
+      "id": 2,
+      "ModelName": "SVM",
+      "PerformanceMetric": "ROC",
+      "Value": 0.84
+    }
+  ]
+}
