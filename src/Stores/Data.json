@@ -4,7 +4,7 @@
       "id": 1,
       "ModelName": "Logistic Regression",
       "PerformanceMetric": "ROC",
-      "Value": 0.81
+      "Value": 0.73
     },
     {
       "id": 2,
