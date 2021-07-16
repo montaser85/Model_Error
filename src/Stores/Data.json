@@ -9,7 +9,7 @@
           "box_id": 901,
           "attributes": [],
           "label": "traffic sign",
-          "box": { "x1": 355.34, "x2": 455.78 }
+          "box": { "x1": 355.34, "x2": 445.78 }
         },
         {
           "box_id": 902,
